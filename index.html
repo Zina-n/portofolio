@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <title>My Portofolio</title>
+</head>
+<body>
+  <header>
+    <h1>Zinaida Neagu</h1>
+    <nav>
+        <ul>
+            <li><a href = "#about">About</a></li>
+            <li><a href = "#projects">Projects</a></li>
+            <li><a href = "#contact">Contact</a></li>
+        </ul>
+    </nav>
+  </header>  
+  <main>
+    <section id ="about">
+        <h2>About Me</h2>
+        <img src="images/img_0.jpg" 
+        alt="Zina's photo" 
+        class="profile-pic"
+        width="150"
+        height="230"
+        />
+        <p> I'm <strong> Zinaida Neagu </strong> a passionate web developer
+        with a focus on building responsive, user-friendly websites
+     and web applications. I enjoy turning ideas into digital experiences using 
+     <em>HTML, CSS, and Javascript</em></p>
+     <p>This portfolio showcases some of the projects I've worked on — from simple 
+        landing pages to more
+         dynamic apps — as well as the skills and tools I've been developing 
+         along the way.</p>
+    </section>
+    <section id="projects">
+        <h2>Projects</h2>
+        <h3><strong>Nature Sound Generator</strong></h3>
+            <p>This app generates ambient natural sounds (rain, forest, ocean)
+                 for relaxation.
+            </p>
+        <article class="project">
+            <img 
+            src="images/img_1.jpg"
+             alt="landscape image"
+             width="400"
+             height="300"
+             />
+        </article>
+        <article class="project">
+            <h3><strong>Pill Reminder App</strong> </h3>
+            <p>
+            This is a mobile or web app that reminds users to take
+             their medications on time.
+            </p>
+            <img 
+            src="images/img_2.jpg" 
+            alt="tablets image"
+            width="400"
+            height="300"
+             />
+        
+        </article>
+    </section>
+    <section id="contact">
+     <h2>Contact me</h2>
+     <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"/>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required/>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit">Send Message</button>
+     </form>
+     <p>Email me at:
+         <a href="mailto:zinaidaneagu2@gmail.com">zinaidaneagu2@gmail.com</a>
+        </p>
+     <p>Call me at:
+        <a href="07387797385">07387797385</a>
+     </p>   
+    </section>
+  </main>
+
+  <footer>
+    <p> &copy; 2025 Zinaida Neagu. All rights reserved. </p>
+  </footer>
+</body>
+</html>
