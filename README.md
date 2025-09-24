@@ -6,7 +6,7 @@ CSS3 (No Flexbox / No Grid)
 
 To view the website locally:
 Clone this repository:
-git clone https://github.com/yourusername/portfolio.git
+git clone https://github.com/Zina-n/portfolio.git
 
 Open index.html in any web browser:
 Right-click index.html > Open with > Your Browser
